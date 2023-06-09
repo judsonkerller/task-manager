@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import TasksPage from "./src/screens/TaskPage";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+ return (
+  <SafeAreaView style={styles.container}>
+   <View>
+    <TasksPage />
+    <StatusBar style="light" />
+   </View>
+  </SafeAreaView>
+ );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+ container: {
+  backgroundColor: "#1e1e1e",
+  alignItems: "center",
+  justifyContent: "center",
+ },
 });
