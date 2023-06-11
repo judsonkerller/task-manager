@@ -5,7 +5,7 @@
 <p align="center">Desafio feito para a empresa Logique Sistemas onde foi desenvolvido um app para Gestão de tarefas.</p>
 
 <img src="https://img.shields.io/badge/app-task--manager-%233ddc84" />
-[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
+[![Npm package version](https://badgen.net/npm/v/express)] (https://npmjs.com/package/express)
 [![GitHub license]](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
 
