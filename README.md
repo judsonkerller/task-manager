@@ -26,9 +26,9 @@
 ### Features
 
 - [x] Tela de tarefas (TaskPage)
-- [ ] Adicionar uma nova tarefa (AddPage)
+- [x] Adicionar uma nova tarefa (AddPage)
 - [x] Editar uma tarefa (EditPage)
-- [ ] Deletar uma tarefa (archive)
+- [x] Deletar uma tarefa (archive)
 - [ ] Verificar fluxo do app e gerenciamento de tarefas
 
 ### Pré-requisitos e como rodar a aplicação
