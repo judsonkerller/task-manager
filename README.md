@@ -5,9 +5,6 @@
 <p align="center">Desafio feito para a empresa Logique Sistemas onde foi desenvolvido um app para Gestão de tarefas.</p>
 
 <img src="https://img.shields.io/badge/app-task--manager-%233ddc84" />
-[![Npm package version](https://badgen.net/npm/v/express)] (https://npmjs.com/package/express)
-[![GitHub license]](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
 
 ## Conteúdos
 
@@ -70,12 +67,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
+<a id="about" href="https://t.me/judsonkerller">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44353658?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Judson Kerller</b></sub></a> <a href="https://t.me/judsonkerller">🚀</a>
+ <sub><b>Judson Kerller</b></sub></a> <a>🚀</a>
 
 Feito com ❤️ por Judson Kerller 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/judsonkerller/)
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:judsonkerller@gmail.com)](mailto:judsonkerller@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Judson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/judsonkerller/)](https://www.linkedin.com/in/judsonkerller/)
+[![Gmail Badge](https://img.shields.io/badge/-judsonkerller@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:judsonkerller@gmail.com)](mailto:judsonkerller@gmail.com)
