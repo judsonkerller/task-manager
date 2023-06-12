@@ -5,11 +5,16 @@ import {
  TextInput,
  TouchableOpacity,
  Text,
+ LogBox,
 } from "react-native";
 import { FontAwesome5 } from "@expo/vector-icons";
 import Task from "../interfaces/Task";
 import { RouteProp } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
+
+LogBox.ignoreLogs([
+ "Non-serializable values were found in the navigation state",
+]);
 
 type AddPageRouteProps = {
  AddPage: {

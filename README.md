@@ -27,9 +27,8 @@
 
 - [x] Tela de tarefas (TaskPage)
 - [x] Adicionar uma nova tarefa (AddPage)
-- [x] Editar uma tarefa (EditPage)
-- [x] Deletar uma tarefa (archive)
-- [ ] Verificar fluxo do app e gerenciamento de tarefas
+- [x] Arquivar uma tarefa (archive)
+- [x] Verificar fluxo do app e gerenciamento de tarefas
 
 ### Pré-requisitos e como rodar a aplicação
 

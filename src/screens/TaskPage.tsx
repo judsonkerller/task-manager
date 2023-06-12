@@ -13,6 +13,7 @@ import EditPage from "./EditPage";
 import Task from "../interfaces/Task";
 import { useNavigation } from "@react-navigation/native";
 import { AntDesign } from "@expo/vector-icons";
+import { v4 as uuidv4 } from "uuid";
 
 const TasksPage: React.FC = () => {
  const navigation = useNavigation();
@@ -34,7 +35,8 @@ const TasksPage: React.FC = () => {
  };
 
  const handleSaveTask = (newTask: Task) => {
-  setTasks((prevTasks) => [...prevTasks, newTask]);
+  const taskWithUniqueId = { ...newTask, id: uuidv4() };
+  setTasks((prevTasks) => [...prevTasks, taskWithUniqueId]);
  };
 
  const handleCancelEdit = () => {
@@ -43,6 +45,20 @@ const TasksPage: React.FC = () => {
 
  const handleArchiveTask = (taskId: string) => {
   const updatedTasks = tasks.filter((task) => task.id !== taskId);
+  setTasks(updatedTasks);
+ };
+
+ const handleStateChange = (
+  taskId: string,
+  newState: "NÃO INICIADA" | "EM PROGRESSO" | "FINALIZADA"
+ ) => {
+  const updatedTasks = tasks.map((task) => {
+   if (task.id === taskId) {
+    return { ...task, state: newState };
+   }
+   return task;
+  });
+
   setTasks(updatedTasks);
  };
 
@@ -59,6 +75,7 @@ const TasksPage: React.FC = () => {
        task={task}
        onEdit={handleEditTask}
        onArchive={handleArchiveTask}
+       onStateChange={handleStateChange}
       />
      ))}
     </ScrollView>
