@@ -55,13 +55,13 @@ const TaskItem: React.FC<TaskItemProps> = ({
  const getStateColor = (): string => {
   switch (task.state) {
    case "NÃO INICIADA":
-    return "#cc7722"; // Laranja
+    return "#cc7722";
    case "EM PROGRESSO":
-    return "blue"; // Azul
+    return "blue";
    case "FINALIZADA":
-    return "green"; // Verde
+    return "green";
    default:
-    return "#000000"; // Preto
+    return "#000000";
   }
  };
 
@@ -106,16 +106,8 @@ const TaskItem: React.FC<TaskItemProps> = ({
       <Text style={styles.modalTitle}>{task.title}</Text>
       <Text style={styles.modalDescription}>{task.description}</Text>
       <Picker selectedValue={selectedState} onValueChange={handleStateChange}>
-       <Picker.Item
-        label="NÃO INICIADA"
-        value="NÃO INICIADA"
-        color="#cc7722" // Laranja
-       />
-       <Picker.Item
-        label="EM PROGRESSO"
-        value="EM PROGRESSO"
-        color="blue" // Azul
-       />
+       <Picker.Item label="NÃO INICIADA" value="NÃO INICIADA" color="#cc7722" />
+       <Picker.Item label="EM PROGRESSO" value="EM PROGRESSO" color="blue" />
       </Picker>
       <Pressable onPress={toggleModal} style={styles.modalButton}>
        <Text style={styles.buttonText}>Salvar</Text>
