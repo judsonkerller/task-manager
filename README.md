@@ -64,6 +64,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+### Observações
+
+Foquei na construção das páginas (TaskPage, AddPage) pensando em um fluxo simples, porém que cumprisse com a idéia de registrar e controlar uma tarefa registrada. Pretendo levar o projeto adiante tanto para uso pessoal como postar na Play Store, já que tantas pessoas utilizam esse tipo de recurso para gerenciar suas tarefas diárias.
+
 ### Autor
 
 ---
